@@ -50,7 +50,7 @@ let quotes=[
    "The best way to do it, is to do it." ,
    "Do not be embarrassed by your failures, learn from them and start again." ,
    "Success is not how high you have climbed, but how you make a positive difference to the world." ];
-  $(document).click(function () {
+  $(Button).click(function () {
    let Output=quotes[Math.floor(Math.random()*quotes.length)]
  console.log(Output);
    $(".QuoteOutput").text(Output);
